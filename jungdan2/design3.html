@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family:  "돋움";
+    font-size : 100%;
+    background-color:#d7c5b1;
+}
+img,embed,object,video {max-width: 100%;}
+@media ( max-width: 1280px ) {
+  #main { width: 100%; }
+}
+
+@media ( max-width: 768px ) {
+  #main { width: 100%; }
+}
+
+@media ( max-width: 480px ) {
+  #main { width: 100%; }
+}
+[class*="c_"] {
+    float: left;
+    padding: 10px;
+}
+/* 너비가 600픽셀 미만인 스마트폰을 위한 기본 설정 */
+[class*="c_"] {
+    width: 100%;
+}
+/* 너비가 600픽셀 이상인 태블릿을 위한 설정 */
+@media only screen and (min-width: 600px) {
+    .c_m_1 {width: 8.33%;}
+    .c_m_2 {width: 16.66%;}
+    .c_m_3 {width: 25%;}
+    .c_m_4 {width: 33.33%;}
+    .c_m_5 {width: 41.66%;}
+    .c_m_6 {width: 50%;}
+    .c_m_7 {width: 58.33%;}
+    .c_m_8 {width: 66.66%;}
+    .c_m_9 {width: 75%;}
+    .c_m_10 {width: 83.33%;}
+    .c_m_11 {width: 91.66%;}
+    .c_m_12 {width: 100%;}
+}
+/* 너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등 */
+@media only screen and (min-width: 768px) {
+    .c_1 {width: 8.33%; }
+    .c_2 {width: 16.66%; }
+    .c_3 {width: 25%; }
+    .c_4 {width: 33.33%; }
+    .c_5 {width: 41.66%; }
+    .c_6 {width: 50%; }
+    .c_7 {width: 58.33%; }
+    .c_8 {width: 66.66%; }
+    .c_9 {width: 75%; }
+    .c_10 {width: 83.33%; }
+    .c_11 {width: 91.66%; }
+    .c_12 {width: 100%; }
+}
+
+a:link { text-decoration:none;
+color:#000000; }
+a:visited { color: #000000; }
+a:active { text-decoration:none;
+color:#000000; }
+a:hover { text-decoration:none;
+color:#000000; }
+
+#logo {
+  position:relative;
+  top:10px;
+  left:10px;
+  /* border:solid 1px #0000ff; */
+}
+
+aside#menu {
+  color: #000000;
+  height:100%;
+  background-color:#cab9a7;
+  background-color: rgba( 255, 255, 255, 0 );
+  z-index:99;
+}
+aside#menu li {
+  padding: 8px;
+  margin-top: 10px;
+}
+section#main {
+    padding: 15px;
+}
+section#main p {
+    padding:5px;
+    font-size: 0.95em;
+    line-height: 180%;
+}
+
+section#main h1 {
+  background-color:#a79784;
+  color:#ffffff;
+  width:1000px;
+}
+
+footer {
+    height:100px;
+    padding:0;
+    clear: both;
+    text-align: center;
+    background-color: #ffffff;
+    position:relative;
+}
+
+aside #search {
+  float: left;
+  font-family: "Sans-serif";
+  font-size: 12px;
+  color: #005766;
+  margin-top: 50px;
+  margin-left: 10px;
+  /* border:solid 1px #000000; */
+}
+
+aside #search #search_title {
+  float: left;
+  margin-top: 0px;
+}
+
+aside #search #search_form {
+  float: left;
+}
+
+aside #search #search_form input {
+  width: 80px;
+  height: 16px;
+  border: 0;
+  background-color: #EAEAEA;
+  border-bottom: solid 1px #cccccc;
+  margin-left: 5px;
+}
+
+aside #search #search_button {
+  float: left;
+  margin: 3px 0 0 3px;
+}
+
+section#main p {
+  font-size:12px;
+}
+</style>
+</head>
+<body>
+  <header class="c12">
+
+  </header>
+
+  <aside id="menu" class="c_m_3 c_3">
+    <a id="logo" href="index.html"><img src="img/logo.png" width="100"></a>
+    <ul>
+      <li><a href="profile.html">Profile    </a></li>
+      <li><a href="design1.html">Visual Design    </a></li>
+      <li><a href="design2.html">Project Studio </a></li>
+      <li><a href="design3.html">Ui/Ux Design    </a></li>
+      <li><a href="programming.html">Programming    </a></li>
+      <li><a href="contact.html">Contact    </a></li>
+    </ul>
+    <div id="search">
+      <div id="search_title">SEARCH</div>
+      <div id="search_form"><input type="text"></div>
+      <div id="search_button"><img src="img/돋보기.png" width="16"></div>
+    </div>
+  </aside>
+
+  <section id="main"  class="c_m_9 c_6">
+    <h1>워터밤 페스티벌 UI 위젯 키트</h1>
+    <br>
+    <hr>
+    <br>
+    <p>물놀이와 음악, 프로모션이 결합된 워터밤 페스티벌의 위젯 키트를 제작해보았습니다. <br> 사용자들의 흥미를 유발하는 콘텐츠들을 추가하여 페스티벌 기간 외에도 <br>
+    사용될 수 있는 위젯을 제작하는 것이 목표였습니다. 여름과 페스티벌을 주제로 총 4가지 테마로 구성되어있습니다. <br><br>
+    </p>
+    <img src="img/ux1.png" width="1000">
+    <img src="img/ux4.png" width="1000">
+    <img src="img/ux2.png" width="1000">
+    <img src="img/ux3.png" width="1000">
+
+  </section>
+
+  <footer class="c12">
+    <a id="logo" href="index.html"><img src="img/logo.png" width="100"></a>
+    <h6>COPYRIGHT(C) Jung Da Eun All Rights Reseved. <br>
+    Kaywon University Art and Design</h6>
+
+  </footer>
+</body>
+</html>
